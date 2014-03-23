@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Routines.cpp" />
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Funcs.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalDisk.cpp">
+      <Filter>Disk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWnd.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ATAApi.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp" />
+    <ClInclude Include="PhysicalDisk.h">
+      <Filter>Disk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{98480cdd-e91d-44f4-850b-c0485a146c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{748eb939-8503-4952-a1db-c1ae4decb08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{752d7940-aa62-4560-b5df-8ac164a55084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Disk">
+      <UniqueIdentifier>{4aa8ac8e-7982-4d18-b900-f9646812691a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SecureEraseWin.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
